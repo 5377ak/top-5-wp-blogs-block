@@ -1,0 +1,24 @@
+.top-5-wp-blogs-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+.top-5-wp-blogs-item {
+	flex: 1 1 calc(33.333% - 16px);
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	padding: 16px;
+	background: #fff;
+}
+.top-5-wp-blogs-item img {
+	width: 100%;
+	height: auto;
+}
+.top-5-wp-blogs-item h2 {
+	font-size: 1.25em;
+	margin: 0.5em 0;
+}
+.top-5-wp-blogs-item p {
+	font-size: 1em;
+	color: #666;
+}
